@@ -3,8 +3,11 @@ using Semana_02_POO;
 
 Console.WriteLine("Hello, World!");
 
+
+
 //Declaro uma variavel com instancia da minha classe
-CentroDeCusto nomeVariavel = new CentroDeCusto(5958, "Teste", DateTime.Now, 1500.0M, 2023);
+DateTime data = new DateTime(2023, 2, 1);
+CentroDeCusto nomeVariavel = new CentroDeCusto(5958, "Teste", data, 1500.0M, 2023);
 nomeVariavel.CalcularCustoReal(10);
 
 Pagamento instanciaPagamento = new Pagamento(1, 15.59M);
